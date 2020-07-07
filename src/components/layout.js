@@ -25,14 +25,15 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
+      {/* <Header siteTitle={data.site.siteMetadata.title} /> */}
       <div>
         <main>{children}</main>
-        <footer>
+
+        {/* <footer style={{}}>
           © {new Date().getFullYear()}
           {` `}
           <a href="https://github.com/longevitytina">❤️ Tina</a>
-        </footer>
+        </footer> */}
       </div>
     </>
   )
