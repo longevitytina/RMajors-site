@@ -30,6 +30,7 @@ export default () => {
           <Link to="#">About</Link>
           <Link to="#">Projects</Link>
           <Link to="#">Resumé</Link>
+          <Link to="#">Testimonials</Link>
         </div>
       </div>
     </div>
