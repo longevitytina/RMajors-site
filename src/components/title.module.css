@@ -7,20 +7,20 @@
 }
 
 .name {
-  margin-left: 18px;
   margin-top: 10%;
   margin-bottom: 0;
-  padding: 0.5em;
-  color: rgba(250, 167, 142, 0.913);
-  font-size: xx-large;
+  padding-right: 1em;
+  padding-bottom: 0.1em;
+  color: rgba(85, 181, 182, 0.913);
+  font-size: 4rem;
+  font-family: "Oswald", sans-serif;
   text-align: right;
 }
 .slogan {
   color: whitesmoke;
-  margin-left: 18px;
   margin-top: 0;
-  margin-bottom: 0;
-  padding: 1em;
+  padding-bottom: 1em;
+  padding-right: 4.1em;
   text-align: right;
 }
 
@@ -30,17 +30,31 @@
 
 .links {
   text-align: right;
-  padding: 1em;
+  padding-right: 4.1em;
   margin-top: 0;
 }
 
 a {
   text-decoration: none;
-  color: rgba(250, 167, 142, 0.913);
+  color: rgba(85, 181, 182, 0.913);
   padding: 1em;
   padding-right: 0;
 }
 a:hover {
   color: white;
-  font-size: large;
+  margin: 0;
+}
+
+@media only screen and (max-width: 845px) {
+  .container,
+  .name,
+  .slogan,
+  .links {
+    display: block;
+    text-align: center;
+    margin: auto;
+  }
+  .name {
+    font-size: 3rem;
+  }
 }
