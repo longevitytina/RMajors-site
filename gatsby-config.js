@@ -28,14 +28,11 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: "gatsby-plugin-web-font-loader",
       options: {
-        fonts: [
-          {
-            family: `Oswald`,
-            subsets: [`300`, `400`],
-          },
-        ],
+        google: {
+          families: ["Oswald", "Cardo"],
+        },
       },
     },
   ],
