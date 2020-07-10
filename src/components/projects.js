@@ -1,6 +1,4 @@
-import { Link } from "gatsby"
 import React from "react"
-import Image from "../components/image"
 import ProjectItem from "./projectItem"
 import { DEFAULT_PROJECTS } from "./projectData"
 import projectStyles from "./projects.module.css"
