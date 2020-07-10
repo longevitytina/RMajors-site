@@ -49,7 +49,7 @@ a:hover {
   margin: 0;
 }
 
-@media only screen and (max-width: 845px) {
+@media only screen and (max-width: 1120px) {
   .container,
   .name,
   .slogan,
