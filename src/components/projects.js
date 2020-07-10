@@ -1,16 +1,13 @@
-import { Link } from "gatsby"
 import React from "react"
-import Image from "../components/image"
 import ProjectItem from "./projectItem"
-import { DEFAULT_PROJECTS } from "./projectData"
 import projectStyles from "./projects.module.css"
 
-export default function projects() {
+export default function projects({ projects }) {
   return (
     <div>
       {/* <h1 className={projectStyles.header}>Projects</h1> */}
       <div className={projectStyles.container}>
-        {DEFAULT_PROJECTS.map((project, i) => (
+        {projects.map((project, i) => (
           <ProjectItem {...project} key={i} />
         ))}
       </div>
