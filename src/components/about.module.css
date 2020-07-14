@@ -4,9 +4,13 @@
   min-height: 100%;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   grid-gap: 1em;
+  margin: auto;
   padding-bottom: 40em;
 }
 .summary {
+  display: grid;
+  grid-template-rows: 130px 1fr auto;
+
   color: whitesmoke;
   margin-top: 0;
   padding-bottom: 1em;
@@ -17,7 +21,9 @@
 }
 
 .avatar {
-  grid-area: "avatar";
+  max-width: 600px;
+  text-align: right;
+  padding-left: 5em;
 }
 .writingWrap {
   padding-left: 2em;
@@ -45,6 +51,10 @@
   }
   .heading {
     font-size: 3rem;
+  }
+  .avatar {
+    margin-left: 3em;
+    margin-right: 3em;
   }
   .summary {
     font-size: 1.1rem;

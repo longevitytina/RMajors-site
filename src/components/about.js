@@ -8,7 +8,7 @@ export default () => {
     query AboutQuery {
       file(relativePath: { eq: "filler.jpg" }) {
         childImageSharp {
-          fluid(maxWidth: 400) {
+          fluid(maxWidth: 600) {
             ...GatsbyImageSharpFluid
           }
         }
