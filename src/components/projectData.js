@@ -1,3 +1,6 @@
+import project1 from "../images/build.jpg"
+import project2 from "../images/planning.jpg"
+
 export const DEFAULT_PROJECTS = [
   {
     id: "1",
@@ -5,7 +8,7 @@ export const DEFAULT_PROJECTS = [
     description:
       "Utapau chewbacca mara skywalker sidious tatooine darth. Wampa padmé padmé sidious. Darth calamari kessel skywalker droid alderaan. ",
     link: "#",
-    image: "../images/build.png",
+    image: project1,
   },
   {
     id: "2",
@@ -13,7 +16,7 @@ export const DEFAULT_PROJECTS = [
     description:
       "Utapau chewbacca mara skywalker sidious tatooine darth. Wampa padmé padmé sidious. Darth calamari kessel skywalker droid alderaan. ",
     link: "#",
-    image: "../images/planning.png",
+    image: project2,
   },
   {
     id: "3",
@@ -21,6 +24,6 @@ export const DEFAULT_PROJECTS = [
     description:
       "Utapau chewbacca mara skywalker sidious tatooine darth. Wampa padmé padmé sidious. Darth calamari kessel skywalker droid alderaan. ",
     link: "#",
-    image: "../images/build.png",
+    image: project1,
   },
 ]
