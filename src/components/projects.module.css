@@ -5,6 +5,16 @@
   padding: 0 2em;
   margin: 2rem 0;
 }
+.heading {
+  margin-top: 10%;
+  margin-bottom: 0;
+  padding-right: 1em;
+  padding-bottom: 0.1em;
+  color: rgba(85, 181, 182, 0.913);
+  font-size: 6rem;
+  font-family: "Oswald", sans-serif;
+  text-align: left;
+}
 
 @media only screen and (max-width: 600px) {
   .container {
