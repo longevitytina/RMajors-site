@@ -1,0 +1,53 @@
+.container {
+  width: 100%;
+  display: grid;
+  min-height: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-gap: 1em;
+  padding-bottom: 40em;
+}
+.summary {
+  color: whitesmoke;
+  margin-top: 0;
+  padding-bottom: 1em;
+  padding-right: 4.1em;
+  text-align: left;
+  font-family: "Cardo", serif;
+  font-size: 1.5rem;
+}
+
+.avatar {
+  grid-area: "avatar";
+}
+.writingWrap {
+  padding-left: 2em;
+}
+
+.heading {
+  margin-top: 10%;
+  margin-bottom: 0;
+  padding-right: 1em;
+  padding-bottom: 0.1em;
+  color: rgba(85, 181, 182, 0.913);
+  font-size: 6rem;
+  font-family: "Oswald", sans-serif;
+  text-align: left;
+}
+
+@media only screen and (max-width: 845px) {
+  .container,
+  .summary,
+  .heading {
+    display: block;
+    text-align: center;
+    margin: unset;
+    padding: unset;
+  }
+  .heading {
+    font-size: 3rem;
+  }
+  .summary {
+    font-size: 1.1rem;
+    padding-bottom: 0.5em;
+  }
+}
