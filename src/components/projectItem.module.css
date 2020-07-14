@@ -13,6 +13,10 @@
   padding: 0;
   text-align: left;
 }
+.image {
+  width: 400px;
+  height: 300px;
+}
 
 @media only screen and (max-width: 845px) {
   .title {
