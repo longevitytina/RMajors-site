@@ -28,7 +28,8 @@
 }
 
 .avatar {
-  grid-area: "avatar";
+  padding-left: 2em;
+  margin-top: 2em;
 }
 
 .links {
@@ -54,7 +55,8 @@ a:hover {
   .container,
   .name,
   .slogan,
-  .links {
+  .links,
+  .avatar {
     display: block;
     text-align: center;
     margin: unset;
