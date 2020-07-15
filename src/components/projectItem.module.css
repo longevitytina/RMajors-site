@@ -1,21 +1,26 @@
 .title {
   display: block;
-  font-size: 2rem;
   font-weight: 500;
-  padding-bottom: 0.5rem;
+  padding-bottom: 0.1em;
+  color: rgba(85, 181, 182, 0.913);
+  font-size: 2rem;
+  font-family: "Oswald", sans-serif;
 }
 .description {
   font-size: 1rem;
   padding-bottom: 0.5rem;
+  font-family: "Cardo", serif;
+  color: whitesmoke;
 }
 .link {
   display: block;
   padding: 0;
   text-align: left;
+  font-family: "Cardo", serif;
 }
 .image {
-  width: 400px;
-  height: 300px;
+  width: 100%;
+  /* height: 300px; */
 }
 
 @media only screen and (max-width: 845px) {
