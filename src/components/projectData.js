@@ -4,7 +4,7 @@ import project2 from "../images/planning.jpg"
 export const DEFAULT_PROJECTS = [
   {
     id: "1",
-    name: "Project 1",
+    name: "Organizing",
     description:
       "Utapau chewbacca mara skywalker sidious tatooine darth. Wampa padmé padmé sidious. Darth calamari kessel skywalker droid alderaan. ",
     link: "#",
@@ -12,7 +12,7 @@ export const DEFAULT_PROJECTS = [
   },
   {
     id: "2",
-    name: "Project 2",
+    name: "Managment",
     description:
       "Utapau chewbacca mara skywalker sidious tatooine darth. Wampa padmé padmé sidious. Darth calamari kessel skywalker droid alderaan. ",
     link: "#",
@@ -20,7 +20,7 @@ export const DEFAULT_PROJECTS = [
   },
   {
     id: "3",
-    name: "Project 3",
+    name: "Consulting",
     description:
       "Utapau chewbacca mara skywalker sidious tatooine darth. Wampa padmé padmé sidious. Darth calamari kessel skywalker droid alderaan. ",
     link: "#",
