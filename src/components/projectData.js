@@ -1,5 +1,6 @@
 import project1 from "../images/build.jpg"
 import project2 from "../images/planning.jpg"
+import project3 from "../images/management.jpg"
 
 export const DEFAULT_PROJECTS = [
   {
@@ -8,7 +9,7 @@ export const DEFAULT_PROJECTS = [
     description:
       "Utapau chewbacca mara skywalker sidious tatooine darth. Wampa padmé padmé sidious. Darth calamari kessel skywalker droid alderaan. ",
     link: "#",
-    image: project1,
+    image: project3,
   },
   {
     id: "2",
