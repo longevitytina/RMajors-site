@@ -6,9 +6,9 @@ import aboutStyles from "./about.module.css"
 export default () => {
   const data = useStaticQuery(graphql`
     query AboutQuery {
-      file(relativePath: { eq: "filler.jpg" }) {
+      file(relativePath: { eq: "filler3.jpg" }) {
         childImageSharp {
-          fluid(maxWidth: 600) {
+          fluid(maxWidth: 1000) {
             ...GatsbyImageSharpFluid
           }
         }
