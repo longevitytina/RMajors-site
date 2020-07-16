@@ -1,7 +1,13 @@
 import React from "react"
-import itemStyles from "./projectItem.module.css"
+import itemStyles from "./projectPreview.module.css"
 
-export default function ProjectItem({ data, name, description, link, image }) {
+export default function TestimonialPreview({
+  data,
+  name,
+  description,
+  link,
+  image,
+}) {
   return (
     <figure>
       <img src={image} alt={name} className={itemStyles.image} />
