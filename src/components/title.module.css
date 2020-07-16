@@ -4,7 +4,7 @@
   min-height: 100%;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   grid-gap: 1em;
-  padding-bottom: 40em;
+  padding-bottom: 20em;
 }
 
 .name {
@@ -62,12 +62,20 @@ a:hover {
     margin: unset;
     padding: unset;
   }
-  .name {
-    font-size: 3rem;
+  .container {
+    padding-bottom: 10em;
   }
-  .slogan,
+  .a {
+    padding: 0.2em;
+  }
+  .name {
+    font-size: 4rem;
+  }
+  .slogan {
+    font-size: 1.5rem;
+  }
   .links {
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     padding-bottom: 0.5em;
   }
 }
