@@ -27,10 +27,10 @@ export default () => {
         <h1 className={titleStyles.name}>Robert Majors</h1>
         <p className={titleStyles.slogan}>Events Planner and Consultant</p>
         <div className={titleStyles.links}>
-          <Link to="#">About</Link>
-          <Link to="#">Projects</Link>
-          <Link to="#">Resumé</Link>
-          <Link to="#">Testimonials</Link>
+          <Link to="#about">About</Link>
+          <Link to="#projects">Projects</Link>
+          <Link to="#resume">Resumé</Link>
+          <Link to="#testimonials">Testimonials</Link>
         </div>
       </div>
     </div>

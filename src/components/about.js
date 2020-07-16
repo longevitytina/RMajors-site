@@ -16,7 +16,7 @@ export default () => {
     }
   `)
   return (
-    <div className={aboutStyles.container}>
+    <div className={aboutStyles.container} id="about">
       <div className={aboutStyles.writingWrap}>
         <h1 className={aboutStyles.heading}>About</h1>
         <p className={aboutStyles.summary}>
