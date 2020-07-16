@@ -5,7 +5,9 @@
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   grid-gap: 1em;
   margin: auto;
-  padding-bottom: 40em;
+  padding-bottom: 10em;
+  padding-top: 10em;
+  background-color: rgb(63, 62, 62);
 }
 .summary {
   color: whitesmoke;
@@ -19,6 +21,7 @@
 
 .avatar {
   text-align: right;
+  margin: 0.4em;
 }
 .writingWrap {
   padding-left: 2em;
@@ -44,12 +47,18 @@
     margin: unset;
     padding: unset;
   }
+  .writingWrap {
+    padding-left: unset;
+  }
   .heading {
-    font-size: 3rem;
+    font-size: 4rem;
+  }
+  .container {
+    padding-bottom: 10em;
   }
 
   .summary {
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     padding-bottom: 0.5em;
   }
 }
