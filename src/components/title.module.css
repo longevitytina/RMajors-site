@@ -5,6 +5,7 @@
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   grid-gap: 1em;
   padding-bottom: 20em;
+  background-color: rgb(55, 52, 51);
 }
 
 .name {
