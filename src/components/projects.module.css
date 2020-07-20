@@ -1,9 +1,6 @@
 .container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  grid-gap: 1em;
-  margin: 2rem 0;
   padding-bottom: 10rem;
+  background-color: rgb(55, 52, 51);
 }
 .heading {
   margin-top: 10%;
