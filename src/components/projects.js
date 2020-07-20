@@ -10,7 +10,7 @@ export default function projects() {
       <h1 className={projectStyles.heading} id="projects">
         Projects
       </h1>
-      <CardColumns>
+      <CardColumns className="pl-5 pr-5">
         {DEFAULT_PROJECTS.map((project, i) => (
           <ProjectPreview {...project} key={i} />
         ))}
