@@ -33,7 +33,7 @@ export const DEFAULT_PROJECTS = [
   },
   {
     id: "4",
-    name: "MLK peaceWalk nevada desert experience",
+    name: "MLK parade nevada desert experience",
     description:
       "Every January in Las Vegas is the second Largest Parade in Las Vegas. The Martin Luther King  Jr Parade is a time for the community to take the streets and celebrate a life that was dedicated to equality and justice. I have had the privilege to organize a community float in the parade over the past 5 years and it is always a great place to meet new people and hear a good message. ",
     link: "http://nevadadesertexperience.org/mlk",
