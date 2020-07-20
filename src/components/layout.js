@@ -7,7 +7,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <div>
-        <main>{children}</main>
+        <main style={{ backgroundColor: `rgb(55, 52, 51)` }}>{children}</main>
         {/* <footer style={{}}>
           © {new Date().getFullYear()}
           {` `}
