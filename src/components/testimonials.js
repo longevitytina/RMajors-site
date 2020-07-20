@@ -1,18 +1,17 @@
 import React from "react"
-import ProjectItem from "./projectPreview"
+import TestimonialPreview from "./testimonialPreview"
 import { DEFAULT_TESTIMONIALS } from "./testimonialData"
-// import testimonialStyles from "./testimonial.module.css"
-import projectStyles from "./projects.module.css"
+import testimonialStyles from "./testimonials.module.css"
 
 export default function testimonials() {
   return (
-    <div>
-      <h1 className={projectStyles.heading} id="testimonials">
+    <div style={{ backgroundColor: `rgb(63, 62, 62)`, marginTop: `10%` }}>
+      <h1 className={testimonialStyles.heading} id="testimonials">
         Testimonials
       </h1>
-      <div className={projectStyles.container}>
+      <div className={testimonialStyles.container}>
         {DEFAULT_TESTIMONIALS.map((project, i) => (
-          <ProjectItem {...project} key={i} />
+          <TestimonialPreview {...project} key={i} />
         ))}
       </div>
     </div>
