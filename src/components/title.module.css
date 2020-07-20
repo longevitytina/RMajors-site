@@ -4,12 +4,12 @@
   min-height: 100%;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   grid-gap: 1em;
-  padding-bottom: 20em;
+  padding-bottom: 10em;
   background-color: rgb(55, 52, 51);
 }
 
 .name {
-  margin-top: 10%;
+  padding-top: 1em;
   margin-bottom: 0;
   padding-right: 1em;
   padding-bottom: 0.1em;

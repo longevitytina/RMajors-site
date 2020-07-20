@@ -1,7 +1,3 @@
-import testimonal1 from "../images/testimonal1.jpg"
-import testimonial2 from "../images/testimonial2.jpg"
-import testimonial3 from "../images/testimonials3.jpg"
-
 export const DEFAULT_TESTIMONIALS = [
   {
     id: "1",
@@ -9,7 +5,6 @@ export const DEFAULT_TESTIMONIALS = [
     description:
       "Utapau chewbacca mara skywalker sidious tatooine darth. Wampa padmé padmé sidious. Darth calamari kessel skywalker droid alderaan. ",
     link: "#",
-    image: testimonal1,
   },
   {
     id: "2",
@@ -17,7 +12,6 @@ export const DEFAULT_TESTIMONIALS = [
     description:
       "Utapau chewbacca mara skywalker sidious tatooine darth. Wampa padmé padmé sidious. Darth calamari kessel skywalker droid alderaan. ",
     link: "#",
-    image: testimonial2,
   },
   {
     id: "3",
@@ -25,6 +19,5 @@ export const DEFAULT_TESTIMONIALS = [
     description:
       "Utapau chewbacca mara skywalker sidious tatooine darth. Wampa padmé padmé sidious. Darth calamari kessel skywalker droid alderaan. ",
     link: "#",
-    image: testimonial3,
   },
 ]
