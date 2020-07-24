@@ -3,24 +3,12 @@ import React from "react"
 import titleStyles from "./title.module.css"
 import Img from "gatsby-image"
 
-export default () => {
-  const data = useStaticQuery(graphql`
-    query MyQuery {
-      file(relativePath: { eq: "title1.jpg" }) {
-        childImageSharp {
-          fluid(maxWidth: 1000) {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-    }
-  `)
-
+const Title = props => {
   return (
     <div className={titleStyles.container}>
       <Img
         className={titleStyles.avatar}
-        fluid={data.file.childImageSharp.fluid}
+        fluid={props.titleImage}
         alt="Robert headshot"
       />
       <div>
@@ -36,3 +24,5 @@ export default () => {
     </div>
   )
 }
+
+export default Title

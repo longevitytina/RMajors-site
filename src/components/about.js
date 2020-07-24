@@ -3,18 +3,7 @@ import { graphql, Link, useStaticQuery } from "gatsby"
 import Img from "gatsby-image"
 import aboutStyles from "./about.module.css"
 
-export default () => {
-  const data = useStaticQuery(graphql`
-    query AboutQuery {
-      file(relativePath: { eq: "music.jpg" }) {
-        childImageSharp {
-          fluid(maxWidth: 1000) {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-    }
-  `)
+const About = props => {
   return (
     <div className={aboutStyles.container} id="about">
       <div className={aboutStyles.writingWrap}>
@@ -40,9 +29,10 @@ export default () => {
       </div>
       <Img
         className={aboutStyles.avatar}
-        fluid={data.file.childImageSharp.fluid}
+        fluid={props.aboutImage}
         alt="Robert headshot"
       />
     </div>
   )
 }
+export default About
