@@ -5,6 +5,7 @@ import project4 from "../images/parade.jpg"
 import project5 from "../images/peaceWalk.jpg"
 import project6 from "../images/workPortfolio-1.jpg"
 import project7 from "../images/guitar.jpg"
+import project8 from "../images/humanitarian.jpeg"
 
 export const DEFAULT_PROJECTS = [
   {
@@ -14,6 +15,14 @@ export const DEFAULT_PROJECTS = [
       "Knowledge is a gift to the world and working with Engineers Without Borders allows gifted professionals to share their ability with countries that do not have the resources to meet necessary goals. Working with communities to create infrastructure, EWB engages student volunteers to help organize projects from their local campus. At the University of Nevada Las Vegas Chapter we are currently working on a school house to be built in Guatemala. The current cost for the project is $50,000 and we are always looking for ways to raise funds and volunteers that can help with the project. ",
     link: "www.ewbunlv.com",
     image: project3,
+  },
+  {
+    id: "8",
+    name: "Humanitarian Engineering",
+    description:
+      "Knowledge is a gift to the world and working with Engineers Without Borders allows gifted professionals to share their ability with countries that do not have the resources to meet necessary goals. Working with communities to create infrastructure, EWB engages student volunteers to help organize projects from their local campus. At the University of Nevada Las Vegas Chapter we are currently working on a school house to be built in Guatemala. The current cost for the project is $50,000 and we are always looking for ways to raise funds and volunteers that can help with the project. ",
+    link: "www.ewbunlv.com",
+    image: project8,
   },
   {
     id: "1",
