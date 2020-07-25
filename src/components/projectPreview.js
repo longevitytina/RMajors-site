@@ -11,7 +11,7 @@ export default function projectPreview({
 }) {
   return (
     <Card>
-      <Card.Img src={image} />
+      <Card.Img src={image} className={itemStyles.image} />
       {/* // <img src={image} alt={name} className={itemStyles.image} /> */}
       {/* <Card.Body>
         <Card.Title>{name}</Card.Title>

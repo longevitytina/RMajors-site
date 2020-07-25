@@ -20,10 +20,13 @@
   font-size: 1.5rem;
 }
 .image {
-  width: 100%;
+  filter: brightness(25%);
+}
+.image:hover {
+  filter: brightness(200%);
 }
 
-@media only screen and (max-width: 845px) {
+.image @media only screen and (max-width: 845px) {
   .link {
     text-align: center;
   }
