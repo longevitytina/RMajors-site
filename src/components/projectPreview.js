@@ -1,6 +1,6 @@
 import React from "react"
 import itemStyles from "./projectPreview.module.css"
-import { Card } from "react-bootstrap"
+import { Card, Button } from "react-bootstrap"
 
 export default function projectPreview({
   data,
@@ -10,8 +10,11 @@ export default function projectPreview({
   image,
 }) {
   return (
-    <Card>
+    <Card className={itemStyles.container}>
       <Card.Img src={image} className={itemStyles.image} />
+      <Button variant="secondary" size="lg" block className={itemStyles.button}>
+        {name}
+      </Button>{" "}
       {/* // <img src={image} alt={name} className={itemStyles.image} /> */}
       {/* <Card.Body>
         <Card.Title>{name}</Card.Title>

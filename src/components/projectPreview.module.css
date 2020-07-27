@@ -19,15 +19,33 @@
   font-family: "Cardo", serif;
   font-size: 1.5rem;
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* position: relative;
+  width: 50%; */
+  border-radius: 0;
+  background-color: transparent;
+}
 .image {
   filter: brightness(25%);
+  border-radius: 0;
 }
-.image:hover {
+.button {
+  /* position: absolute; */
+  top: 40%;
+  background-color: rgba(79, 78, 79, 0.468);
+  border-radius: 0;
+  border-color: rgba(85, 181, 182, 0.913);
+}
+/* .image:hover {
   filter: brightness(200%);
-}
+} */
 
-.image @media only screen and (max-width: 845px) {
+/* .image @media only screen and (max-width: 845px) {
   .link {
     text-align: center;
   }
-}
+} */
