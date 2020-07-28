@@ -66,14 +66,16 @@ a:hover {
     padding: unset;
   }
   .container {
-    padding: 2em;
-    padding-bottom: 6em;
+    padding-bottom: 5em;
+    padding-top: 0.4em;
+    padding-left: 0.4em;
+    padding-right: 0.4em;
   }
   .a {
     padding: 0.2em;
   }
   .name {
-    padding-top: 0.5em;
+    padding-top: 0.4em;
     font-size: 4rem;
   }
   .slogan {
