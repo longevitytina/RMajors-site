@@ -16,12 +16,14 @@
   padding-right: 4.1em;
   text-align: left;
   font-family: "Cardo", serif;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .avatar {
   text-align: right;
   margin: 0.4em;
+  max-width: 600px;
+  margin-left: 10rem;
 }
 .writingWrap {
   padding-left: 2em;
@@ -50,6 +52,10 @@
   .writingWrap {
     padding-left: unset;
   }
+  .avatar {
+    max-width: 500px;
+    margin: 0.4em;
+  }
   .heading {
     font-size: 4rem;
   }
@@ -58,7 +64,7 @@
   }
 
   .summary {
-    font-size: 1.4rem;
+    font-size: 1rem;
     padding-bottom: 0.5em;
   }
 }
