@@ -1,17 +1,27 @@
 .container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 1em;
-  padding: 0 2em;
-  margin: 2rem 0;
+  padding-bottom: 1em;
+  background-color: rgb(55, 52, 51);
+}
+.heading {
+  padding-top: 1em;
+  margin-bottom: 0;
+  padding-right: 1em;
+  padding-bottom: 0.3em;
+  color: rgba(85, 181, 182, 0.913);
+  font-size: 6rem;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 845px) {
   .container {
-    background-color: rgb(249, 245, 245);
     display: block;
     text-align: center;
-    padding: 0;
-    margin: 1rem 0;
+    margin: unset;
+  }
+  .heading {
+    padding: unset;
+    text-align: center;
+    font-size: 4rem;
   }
 }

@@ -1,15 +1,40 @@
 import React from "react"
+import "bootstrap/dist/css/bootstrap.min.css"
 import Title from "../components/title"
 import Projects from "../components/projects"
-import Layout from "../components/layout"
 import SEO from "../components/seo"
+import About from "../components/about"
+import Testimonials from "../components/testimonials"
+import Layout from "../components/layout"
+import { graphql } from "gatsby"
 
-const IndexPage = () => (
+const IndexPage = ({ data: { titleImage, aboutImage } }) => (
   <Layout>
     <SEO title="Home" />
-    <Title />
+    <Title titleImage={titleImage.childImageSharp.fluid} />
+    <About aboutImage={aboutImage.childImageSharp.fluid} />
     <Projects />
+    <Testimonials />
   </Layout>
 )
 
 export default IndexPage
+
+export const homeQuery = graphql`
+  {
+    titleImage: file(relativePath: { eq: "title1.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    aboutImage: file(relativePath: { eq: "music.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+  }
+`

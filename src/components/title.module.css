@@ -4,14 +4,17 @@
   min-height: 100%;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   grid-gap: 1em;
+  padding-bottom: 10em;
+  padding-left: 3rem;
+  background-color: rgb(55, 52, 51);
 }
 
 .name {
-  margin-top: 10%;
+  padding-top: 1em;
   margin-bottom: 0;
   padding-right: 1em;
   padding-bottom: 0.1em;
-  color: rgba(85, 181, 182, 0.913);
+  color: rgba(11, 238, 238, 0.728);
   font-size: 6rem;
   font-family: "Oswald", sans-serif;
   text-align: right;
@@ -27,7 +30,9 @@
 }
 
 .avatar {
-  grid-area: "avatar";
+  /* padding-left: 2rem; */
+  margin-top: 2em;
+  /* margin-left: 2rem; */
 }
 
 .links {
@@ -53,18 +58,31 @@ a:hover {
   .container,
   .name,
   .slogan,
-  .links {
+  .links,
+  .avatar {
     display: block;
     text-align: center;
     margin: unset;
     padding: unset;
   }
-  .name {
-    font-size: 3rem;
+  .container {
+    padding-bottom: 5em;
+    padding-top: 0.4em;
+    padding-left: 0.4em;
+    padding-right: 0.4em;
   }
-  .slogan,
+  .a {
+    padding: 0.2em;
+  }
+  .name {
+    padding-top: 0.4em;
+    font-size: 4rem;
+  }
+  .slogan {
+    font-size: 1.5rem;
+  }
   .links {
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     padding-bottom: 0.5em;
   }
 }
