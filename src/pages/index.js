@@ -7,6 +7,7 @@ import About from "../components/about"
 import Testimonials from "../components/testimonials"
 import Layout from "../components/layout"
 import { graphql } from "gatsby"
+import "bootstrap/dist/css/bootstrap.min.css"
 
 const IndexPage = ({ data: { titleImage, aboutImage } }) => (
   <Layout>

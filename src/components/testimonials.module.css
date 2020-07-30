@@ -17,6 +17,10 @@
   font-family: "Oswald", sans-serif;
   text-align: center;
 }
+.slideBackground {
+  background-color: tomato;
+  background-position: cover;
+}
 
 @media only screen and (max-width: 845px) {
   .container {
