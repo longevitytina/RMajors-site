@@ -1,9 +1,6 @@
 import React from "react"
-import TestimonialPreview from "./testimonialPreview"
-import { DEFAULT_TESTIMONIALS } from "./testimonialData"
 import testimonialStyles from "./testimonials.module.css"
 import { Carousel } from "react-bootstrap"
-import pic1 from "../images/humanitarian.jpeg"
 import background from "../images/background.jpg"
 
 export default function testimonials() {
@@ -15,23 +12,43 @@ export default function testimonials() {
 
       <Carousel>
         <Carousel.Item>
-          <div className={testimonialStyles.slideBackground}>
-            <img className="d-block w-100" src={background} />
-            <h2>title #1</h2>
+          <div>
+            <img
+              style={{
+                opacity: `50%`,
+                position: `relative`,
+              }}
+              className="d-block w-50"
+              src={background}
+            />
+            <div className={testimonialStyles.content}>
+              <h2>Bill</h2>
+              <p>
+                Utapau chewbacca mara skywalker sidious tatooine darth. Wampa
+                padmé padmé sidious. Darth calamari kessel skywalker droid
+                alderaan. "
+              </p>
+            </div>
           </div>
         </Carousel.Item>
         <Carousel.Item>
           <div className={testimonialStyles.slideBackground}>
-            <img className="d-block w-100" src={background} />
-            <h2>title #2</h2>
+            <img
+              style={{ opacity: `50%` }}
+              className="d-block w-50"
+              src={background}
+            />
+            <div className={testimonialStyles.content}>
+              <h2>Martha</h2>
+              <p>
+                Utapau chewbacca mara skywalker sidious tatooine darth. Wampa
+                padmé padmé sidious. Darth calamari kessel skywalker droid
+                alderaan. "
+              </p>
+            </div>
           </div>
         </Carousel.Item>
       </Carousel>
-      {/* <div className={testimonialStyles.container}>
-        {DEFAULT_TESTIMONIALS.map((project, i) => (
-          <TestimonialPreview {...project} key={i} />
-        ))}
-      </div> */}
     </div>
   )
 }
