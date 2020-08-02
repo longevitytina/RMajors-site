@@ -1,56 +1,52 @@
 .container {
-  width: 100%;
-  display: grid;
-  min-height: 100%;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  grid-gap: 1em;
-  margin: auto;
-  padding-bottom: 10em;
-  padding-top: 10em;
   background-color: rgb(63, 62, 62);
 }
+
 .summary {
   color: whitesmoke;
-  margin-top: 0;
-  padding-bottom: 1em;
-  padding-right: 4.1em;
-  text-align: left;
   font-family: "Cardo", serif;
-  font-size: 1.2rem;
 }
-
-.avatar {
-  text-align: right;
-  margin: 0.4em;
-  max-width: 600px;
-  margin-left: 10rem;
-}
-.writingWrap {
-  padding-left: 2em;
-}
-
 .heading {
-  margin-top: 10%;
-  margin-bottom: 0;
-  padding-right: 1em;
-  padding-bottom: 0.1em;
   color: rgba(85, 181, 182, 0.913);
-  font-size: 6rem;
   font-family: "Oswald", sans-serif;
-  text-align: left;
 }
+@media only screen and (min-width: 845px) {
+  .container {
+    display: flex;
+  }
+  .summary {
+    margin-top: 0;
+    padding-bottom: 1em;
+    padding-right: 4.1em;
+    text-align: left;
+    font-size: 1.2rem;
+  }
 
+  .avatar {
+    width: 40%;
+    margin: 40px;
+  }
+  .writingWrap {
+    width: 60%;
+    margin: 40px;
+  }
+  .heading {
+    margin-top: 10%;
+    margin-bottom: 0;
+    padding-right: 1em;
+    padding-bottom: 0.1em;
+    font-size: 6rem;
+    text-align: left;
+  }
+}
 @media only screen and (max-width: 845px) {
   .container,
   .summary,
   .heading {
-    display: block;
     text-align: center;
-    margin: unset;
-    padding: unset;
   }
   .writingWrap {
-    padding-left: unset;
+    padding: 0 40px;
   }
   .avatar {
     max-width: 500px;
