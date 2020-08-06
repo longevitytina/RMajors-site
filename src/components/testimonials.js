@@ -1,19 +1,28 @@
 import React from "react"
-import TestimonialPreview from "./testimonialPreview"
-import { DEFAULT_TESTIMONIALS } from "./testimonialData"
 import testimonialStyles from "./testimonials.module.css"
+import { Carousel } from "react-bootstrap"
+import background from "../images/background.jpg"
+import { DEFAULT_TESTIMONIALS } from "./testimonialData"
 
 export default function testimonials() {
   return (
-    <div style={{ backgroundColor: `rgb(63, 62, 62)`, marginTop: `10%` }}>
+    <div style={{ backgroundColor: `rgb(63, 62, 62)` }}>
       <h1 className={testimonialStyles.heading} id="testimonials">
         Testimonials
       </h1>
-      <div className={testimonialStyles.container}>
-        {DEFAULT_TESTIMONIALS.map((project, i) => (
-          <TestimonialPreview {...project} key={i} />
+
+      <Carousel className={testimonialStyles.container}>
+        {DEFAULT_TESTIMONIALS.map(({ name, description }, index) => (
+          <Carousel.Item>
+            <div className={testimonialStyles.carouselItem}>
+              <p style={{ padding: `60px` }}>
+                {description}
+                <br />-{name}
+              </p>
+            </div>
+          </Carousel.Item>
         ))}
-      </div>
+      </Carousel>
     </div>
   )
 }
