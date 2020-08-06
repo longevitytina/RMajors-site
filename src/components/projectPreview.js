@@ -15,16 +15,6 @@ export default function projectPreview({
       <Button variant="secondary" size="lg" block className={itemStyles.button}>
         {name}
       </Button>{" "}
-      {/* // <img src={image} alt={name} className={itemStyles.image} /> */}
-      {/* <Card.Body>
-        <Card.Title>{name}</Card.Title>
-        <Card.Text>{description}</Card.Text>
-      </Card.Body> */}
-      {/* <div className={itemStyles.title}>{name}</div> */}
-      {/* <div className={itemStyles.description}>{description}</div> */}
-      {/* <a href={link} className={itemStyles.link}> */}
-      {/* View more */}
-      {/* </a> */}
     </Card>
   )
 }
