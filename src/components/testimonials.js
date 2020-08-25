@@ -15,7 +15,7 @@ export default function testimonials() {
         {DEFAULT_TESTIMONIALS.map(({ name, description }, index) => (
           <Carousel.Item>
             <div className={testimonialStyles.carouselItem}>
-              <p style={{ padding: `60px` }}>
+              <p>
                 {description}
                 <br />-{name}
               </p>

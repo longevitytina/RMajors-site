@@ -14,55 +14,63 @@
 }
 
 .heading {
-  padding-top: 1em;
-  margin-bottom: 0;
-  padding-right: 1em;
-  padding-bottom: 0.3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: rgba(85, 181, 182, 0.913);
-  font-size: 6rem;
   font-family: "Oswald", sans-serif;
   text-align: center;
 }
 
 @media only screen and (min-width: 845px) {
+  .heading {
+    font-size: 6rem;
+  }
+
+  .carouselItem {
+    font-size: 20px;
+    padding: 10px 200px 60px 200px;
+    margin-bottom: 50px;
+    margin-top: 80px;
+  }
 }
 
 @media only screen and (max-width: 845px) {
-  /* .container {
-    display: block;
-    text-align: center;
-    margin: unset;
-  } */
-  /* .content {
-    position: absolute;
-    top: -50%;
-    padding: 10rem;
-    color: whitesmoke;
-    max-width: 100%;
-    text-align: center;
-  }*/
+  .carouselItem {
+    padding: 100px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+  }
+
   .heading {
     font-size: 4rem;
   }
 }
 
-@media only screen and (max-width: 450px) {
-  /* .container {
-    display: block;
-    text-align: center;
-    margin: unset;
-  } */
-  /* .content {
-    position: absolute;
-    top: -50%;
-    padding: 4rem;
-    color: whitesmoke;
-    max-width: 100%;
-    text-align: center;
-    font-size: 0.7rem;
-  }*/
+@media only screen and (max-width: 425px) {
+  .carouselItem {
+    padding: 50px 70px 60px 70px;
+    font-size: 12px;
+    margin-top: 30px;
+  }
   .heading {
-    margin-bottom: 1.5rem;
     font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .carouselItem {
+    padding: 100px 60px 60px 60px;
+    font-size: 12px;
+    margin-bottom: 80px;
+    margin-top: 20px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .carouselItem {
+    padding: 100px 60px 60px 60px;
+    font-size: 12px;
+    margin-bottom: 120px;
+    margin-top: 50px;
   }
 }
