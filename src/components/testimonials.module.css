@@ -22,22 +22,43 @@
   text-align: center;
 }
 
-@media only screen and (min-width: 845px) {
+@media only screen and (min-width: 1440px) {
   .heading {
     font-size: 6rem;
   }
 
   .carouselItem {
     font-size: 20px;
-    padding: 10px 200px 60px 200px;
-    margin-bottom: 50px;
-    margin-top: 80px;
+    padding: 10px 50px 10px 50px;
+    margin: 20px 100px 20px 100px;
+  }
+}
+@media only screen and (max-width: 1439px) {
+  .carouselItem {
+    padding: 10px 50px 20px 50px;
+    margin: 5px 60px 20px 60px;
+  }
+
+  .heading {
+    font-size: 4rem;
   }
 }
 
+@media only screen and (max-width: 1000px) {
+  .carouselItem {
+    padding: 20px 30px 20px 30px;
+
+    margin-bottom: 50px;
+    margin-top: 20px;
+  }
+
+  .heading {
+    font-size: 4rem;
+  }
+}
 @media only screen and (max-width: 845px) {
   .carouselItem {
-    padding: 100px;
+    padding: 20px 50px 20px 50px;
     margin-bottom: 50px;
     margin-top: 20px;
   }
@@ -49,9 +70,9 @@
 
 @media only screen and (max-width: 425px) {
   .carouselItem {
-    padding: 50px 70px 60px 70px;
+    padding: 10px 30px 10px 30px;
+    margin: 30px 30px 50px 30px;
     font-size: 12px;
-    margin-top: 30px;
   }
   .heading {
     font-size: 3rem;
@@ -60,17 +81,13 @@
 
 @media only screen and (max-width: 375px) {
   .carouselItem {
-    padding: 100px 60px 60px 60px;
-    font-size: 12px;
-    margin-bottom: 80px;
-    margin-top: 20px;
+    padding: 40px 30px 80px 30px;
+    margin: 80px 30px 70px 30px;
   }
 }
 @media only screen and (max-width: 320px) {
   .carouselItem {
-    padding: 100px 60px 60px 60px;
-    font-size: 12px;
-    margin-bottom: 120px;
-    margin-top: 50px;
+    padding: 10px 30px 60px 30px;
+    margin: 90px 20px 70px 20px;
   }
 }
