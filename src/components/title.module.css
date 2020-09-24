@@ -1,60 +1,67 @@
 .container {
-  width: 100%;
-  display: grid;
-  min-height: 100%;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  grid-gap: 1em;
-  padding-bottom: 10em;
-  padding-left: 3rem;
   background-color: rgb(55, 52, 51);
 }
 
 .name {
-  padding-top: 1em;
-  margin-bottom: 0;
-  padding-right: 1em;
-  padding-bottom: 0.1em;
   color: rgba(11, 238, 238, 0.728);
-  font-size: 6rem;
   font-family: "Oswald", sans-serif;
-  text-align: right;
 }
+
 .slogan {
   color: whitesmoke;
-  margin-top: 0;
-  padding-bottom: 1em;
-  padding-right: 4.1em;
-  text-align: right;
   font-family: "Cardo", serif;
-  font-size: 1.5rem;
 }
-
 .avatar {
-  /* padding-left: 2rem; */
   margin-top: 2em;
-  /* margin-left: 2rem; */
 }
-
-.links {
-  text-align: right;
-  padding-right: 4.1em;
-  margin-top: 0;
-  font-size: 1.5rem;
-  font-family: "Cardo", serif;
-}
-
 a {
   text-decoration: none;
   color: rgba(85, 181, 182, 0.913);
-  padding: 1em;
-  padding-right: 0;
 }
 a:hover {
   color: white;
   margin: 0;
 }
+.links {
+  font-family: "Cardo", serif;
+}
 
-@media only screen and (max-width: 845px) {
+@media only screen and (min-width: 845px) {
+  .container {
+    display: flex;
+  }
+
+  .name {
+    font-size: 6rem;
+    padding-top: 1em;
+    margin-bottom: 0;
+    padding-right: 1em;
+    padding-bottom: 0.1em;
+    text-align: right;
+  }
+  .slogan {
+    font-size: 1.5rem;
+    margin-top: 0;
+    padding-bottom: 1em;
+    padding-right: 4.1em;
+    text-align: right;
+  }
+  .avatar {
+    border-radius: 100%;
+    width: 100%;
+    margin: 40px;
+  }
+  .links {
+    text-align: right;
+    padding-right: 4.1em;
+    margin-top: 0;
+    font-size: 1.5rem;
+    padding: 1em;
+    padding-right: 0;
+  }
+}
+
+/* @media only screen and (max-width: 845px) {
   .container,
   .name,
   .slogan,
@@ -85,4 +92,4 @@ a:hover {
     font-size: 0.9rem;
     padding-bottom: 0.5em;
   }
-}
+} */
