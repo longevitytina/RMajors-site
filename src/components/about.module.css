@@ -14,14 +14,6 @@
   .container {
     display: flex;
   }
-  .summary {
-    margin-top: 0;
-    padding-bottom: 1em;
-    padding-right: 4.1em;
-    text-align: left;
-    font-size: 1.2rem;
-  }
-
   .avatar {
     width: 40%;
     margin: 40px;
@@ -29,6 +21,13 @@
   .writingWrap {
     width: 60%;
     margin: 40px;
+  }
+  .summary {
+    margin-top: 0;
+    padding-bottom: 1em;
+    padding-right: 4.1em;
+    text-align: left;
+    font-size: 1.2rem;
   }
   .heading {
     margin-top: 10%;
