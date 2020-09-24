@@ -29,36 +29,34 @@ a:hover {
 @media only screen and (min-width: 845px) {
   .container {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .writingWrap {
+    margin: 40px;
   }
 
   .name {
-    font-size: 6rem;
-    padding-top: 1em;
-    margin-bottom: 0;
-    padding-right: 1em;
-    padding-bottom: 0.1em;
-    text-align: right;
+    font-size: 60px;
   }
   .slogan {
     font-size: 1.5rem;
-    margin-top: 0;
-    padding-bottom: 1em;
-    padding-right: 4.1em;
-    text-align: right;
   }
   .avatar {
     border-radius: 100%;
     width: 100%;
     margin: 40px;
+    margin-left: 100px;
   }
-  .links {
+  /* .links {
     text-align: right;
     padding-right: 4.1em;
     margin-top: 0;
     font-size: 1.5rem;
     padding: 1em;
     padding-right: 0;
-  }
+  } */
 }
 
 /* @media only screen and (max-width: 845px) {
