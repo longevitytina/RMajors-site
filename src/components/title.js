@@ -8,18 +8,18 @@ const Title = props => {
     <div className={titleStyles.container}>
       <Img
         className={titleStyles.avatar}
-        fluid={props.titleImage}
+        fixed={props.titleImage}
         alt="Robert headshot"
       />
       <div>
         <h1 className={titleStyles.name}>Robert Majors</h1>
         <p className={titleStyles.slogan}>Events Planner and Consultant</p>
-        <div className={titleStyles.links}>
+        {/* <div className={titleStyles.links}>
           <Link to="#about">About</Link>
           <Link to="#projects">Projects</Link>
           <Link to="#resume">Resumé</Link>
           <Link to="#testimonials">Testimonials</Link>
-        </div>
+        </div> */}
       </div>
     </div>
   )
