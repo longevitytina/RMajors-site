@@ -11,10 +11,47 @@ export default function projectPreview({
 }) {
   return (
     <Card className={itemStyles.container}>
-      <Card.Img src={image} className={itemStyles.image} />
-      <Button variant="secondary" size="lg" block className={itemStyles.button}>
-        {name}
-      </Button>{" "}
+      <a href={link}>
+        <img src={image} className={itemStyles.image} />
+        <div className={itemStyles.overlay}>
+          <div className={itemStyles.projectName}>{name}</div>
+        </div>
+      </a>
     </Card>
   )
 }
+/* <Button
+  variant="secondary"
+  size="lg"
+  block
+  className={[itemStyles.button, "stretched-link"].join(" ")}
+  href={link}
+>
+  {name}
+</Button>{" "} */
+// <div className="media position">
+//   <Card className={itemStyles.container}>
+//     <Card.Img src={image} className={itemStyles.image} />
+//     <a
+//       href={link}
+//       className={[itemStyles.stretchedLink, "stretched-link"].join(" ")}
+//     >
+//       {name}
+//     </a>
+//   </Card>
+// </div>
+
+// {
+//   style.style1 + " " + style.style2
+// }
+// {
+//   ;`class1 ${class2}`
+// }
+// {
+//   ;[activeClass, data.klass, "main-class"].join(" ")
+// }
+
+// <Card className={itemStyles.container}>
+//   <Card.Img src={image} className={itemStyles.image} />
+//   <a href={link}>{name}</a>
+// </Card>
