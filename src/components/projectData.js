@@ -13,7 +13,7 @@ export const DEFAULT_PROJECTS = [
     name: "Engineers Without Borders",
     description:
       "Knowledge is a gift to the world and working with Engineers Without Borders allows gifted professionals to share their ability with countries that do not have the resources to meet necessary goals. Working with communities to create infrastructure, EWB engages student volunteers to help organize projects from their local campus. At the University of Nevada Las Vegas Chapter we are currently working on a school house to be built in Guatemala. The current cost for the project is $50,000 and we are always looking for ways to raise funds and volunteers that can help with the project. ",
-    link: "www.ewbunlv.com",
+    link: "http://www.ewbunlv.com/mainsite/",
     image: project3,
   },
   {
@@ -21,7 +21,7 @@ export const DEFAULT_PROJECTS = [
     name: "Humanitarian Engineering",
     description:
       "Knowledge is a gift to the world and working with Engineers Without Borders allows gifted professionals to share their ability with countries that do not have the resources to meet necessary goals. Working with communities to create infrastructure, EWB engages student volunteers to help organize projects from their local campus. At the University of Nevada Las Vegas Chapter we are currently working on a school house to be built in Guatemala. The current cost for the project is $50,000 and we are always looking for ways to raise funds and volunteers that can help with the project. ",
-    link: "www.ewbunlv.com",
+    link: "http://ewbunlv.com",
     image: project8,
   },
   {
@@ -29,7 +29,7 @@ export const DEFAULT_PROJECTS = [
     name: "Homeless Housing",
     description:
       "A place to live and feel safe is essential to living a quality life. This project in Las Vegas is a start up initiative to provide small manufactured dwellings to those who need them in the community. We plan to have an affordable unit, costing less than $1,000, built every week.",
-    link: "www.foodnotbombslasvegas.com",
+    link: "https://www.foodnotbombslasvegas.com/",
     image: project1,
   },
   {
@@ -37,7 +37,7 @@ export const DEFAULT_PROJECTS = [
     name: "Serving the Poor",
     description:
       "Thousands of people are currently living on the streets of Las Vegas during the hot summers and cold winters. The Las Vegas Catholic Worker has been serving breakfast to this community of people for over 30 years. They are always taking volunteers and provide a great space to create new ideas about how we can serve the poor. ",
-    link: "www.lvcw.org",
+    link: "http://lvcw.org",
     image: project2,
   },
   {
