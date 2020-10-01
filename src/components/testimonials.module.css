@@ -2,22 +2,21 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgb(63, 62, 62);
 }
 .carouselItem {
-  display: flex;
+  /* display: flex; */
   align-items: center;
   justify-content: center;
-  color: white;
+  color: rgba(22, 40, 79, 1);
   text-align: center;
   height: 200px;
 }
 
 .heading {
-  display: flex;
+  /* display: flex; */
   align-items: center;
   justify-content: center;
-  color: rgba(85, 181, 182, 0.913);
+  color: rgba(22, 40, 79, 1);
   font-family: "Oswald", sans-serif;
   text-align: center;
 }
