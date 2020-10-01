@@ -1,14 +1,14 @@
 .container {
-  background-color: rgb(55, 52, 51);
+  /* background-color: rgb(55, 52, 51); */
 }
 
 .heading {
-  color: rgba(11, 238, 238, 0.728);
+  color: rgba(255, 255, 255, 1);
   font-family: "Oswald", sans-serif;
 }
 
 .description {
-  color: whitesmoke;
+  color: rgba(255, 255, 255, 1);
   font-family: "Cardo", serif;
 }
 .avatar {
