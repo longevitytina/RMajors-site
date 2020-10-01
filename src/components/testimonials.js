@@ -6,9 +6,9 @@ import { DEFAULT_TESTIMONIALS } from "./testimonialData"
 
 export default function testimonials() {
   return (
-    <div style={{ backgroundColor: `rgb(63, 62, 62)` }}>
+    <div className={testimonialStyles.container}>
       <h1 className={testimonialStyles.heading} id="testimonials">
-        Testimonials
+        "
       </h1>
 
       <Carousel className={testimonialStyles.container}>
