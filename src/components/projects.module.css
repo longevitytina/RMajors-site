@@ -1,5 +1,7 @@
 .container {
-  padding: 120px;
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-bottom: 50px;
 }
 .heading {
   color: rgba(255, 255, 255, 1);
