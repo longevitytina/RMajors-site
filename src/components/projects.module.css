@@ -9,12 +9,16 @@
   font-family: "Oswald", sans-serif;
   text-align: left;
 }
+
 .accordion {
   color: whitesmoke;
   font-family: "Oswald", sans-serif;
   font-size: 20px;
-
   padding-bottom: 30px;
+}
+.accordion:hover {
+  color: rgba(22, 40, 79, 1);
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 845px) {
