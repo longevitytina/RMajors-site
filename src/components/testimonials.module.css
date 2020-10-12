@@ -17,12 +17,15 @@
 @media only screen and (min-width: 1440px) {
   .heading {
     font-size: 150px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    height: 150px;
   }
 
   .carouselItem {
     font-size: 20px;
-    padding: 10px 50px 10px 50px;
-    margin: 20px 100px 20px 100px;
+    padding: 0px 50px 10px 50px;
+    margin: 0px 100px 20px 100px;
   }
 }
 /* @media only screen and (max-width: 1439px) {
