@@ -29,6 +29,9 @@ const About = props => {
           reach out to me if they are interested in working on a project
           together.
         </p>
+        <div className={aboutStyles.socialMedia}>
+          <h1>Let's Connect</h1>
+        </div>
       </div>
     </div>
   )
