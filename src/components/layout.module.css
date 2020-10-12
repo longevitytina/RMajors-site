@@ -1,7 +1,7 @@
 body {
-  /* background-color: rgba(0, 0, 0, 0.55); */
   background-image: linear-gradient(
     rgba(18, 34, 69, 1),
     rgba(255, 255, 255, 1)
   );
+  font-family: "Roboto", sans-serif;
 }

@@ -3,6 +3,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-style: normal;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
 }
 .carouselItem {
   color: rgba(22, 40, 79, 1);
@@ -11,7 +14,6 @@
 
 .heading {
   color: rgba(22, 40, 79, 1);
-  font-family: "Oswald", sans-serif;
 }
 
 @media only screen and (min-width: 1440px) {
@@ -23,9 +25,12 @@
   }
 
   .carouselItem {
-    font-size: 20px;
-    padding: 0px 50px 10px 50px;
+    font-size: 18px;
+    padding: 0px 200px 10px 200px;
     margin: 0px 100px 20px 100px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.05em;
   }
 }
 /* @media only screen and (max-width: 1439px) {

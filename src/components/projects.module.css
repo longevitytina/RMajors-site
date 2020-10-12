@@ -2,17 +2,17 @@
   padding-left: 120px;
   padding-right: 120px;
   padding-bottom: 50px;
+  font-family: "Roboto", sans-serif;
 }
 .heading {
   color: rgba(255, 255, 255, 1);
   font-size: 40px;
-  font-family: "Oswald", sans-serif;
+
   text-align: left;
 }
 
 .accordion {
   color: whitesmoke;
-  font-family: "Oswald", sans-serif;
   font-size: 20px;
   padding-bottom: 30px;
 }

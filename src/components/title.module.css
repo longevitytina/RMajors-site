@@ -1,15 +1,13 @@
 .container {
-  /* background-color: rgb(55, 52, 51); */
+  font-family: "Roboto", sans-serif;
 }
 
 .heading {
   color: rgba(255, 255, 255, 1);
-  font-family: "Oswald", sans-serif;
 }
 
 .description {
   color: rgba(255, 255, 255, 1);
-  font-family: "Cardo", serif;
 }
 .avatar {
   margin-top: 2em;
@@ -23,7 +21,6 @@ a:hover {
   margin: 0;
 }
 .links {
-  font-family: "Cardo", serif;
 }
 
 @media only screen and (min-width: 845px) {
