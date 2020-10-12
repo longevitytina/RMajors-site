@@ -4,6 +4,16 @@
   color: rgba(22, 40, 79, 1);
 }
 
+.links {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 20%;
+}
+.icon {
+  color: rgba(22, 40, 79, 1);
+}
 @media only screen and (min-width: 845px) {
   .writingWrap {
     margin-left: 120px;

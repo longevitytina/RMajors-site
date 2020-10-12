@@ -2,6 +2,7 @@ import React from "react"
 import { graphql, Link, useStaticQuery } from "gatsby"
 import Img from "gatsby-image"
 import aboutStyles from "./about.module.css"
+import { FaMailBulk, FaInstagram, FaFacebookF, FaTwitter } from "react-icons/fa"
 
 const About = props => {
   return (
@@ -30,7 +31,28 @@ const About = props => {
           together.
         </p>
         <div className={aboutStyles.socialMedia}>
-          <h1>Let's Connect</h1>
+          <h1>Let's Connect:</h1>
+          <div className={aboutStyles.links}>
+            <a
+              className={aboutStyles.icon}
+              href="mailto: Rmajors702@gmail.com "
+            >
+              <FaMailBulk />
+            </a>
+
+            <a
+              className={aboutStyles.icon}
+              href="https://www.instagram.com/majors_robert/"
+            >
+              <FaInstagram />
+            </a>
+            <a className={aboutStyles.icon} href="#">
+              <FaFacebookF />
+            </a>
+            <a className={aboutStyles.icon} href="#">
+              <FaTwitter />
+            </a>
+          </div>
         </div>
       </div>
     </div>
