@@ -31,7 +31,7 @@ const About = props => {
           together.
         </p>
         <div className={aboutStyles.socialMedia}>
-          <h1>Let's Connect:</h1>
+          Let's Connect:
           <div className={aboutStyles.links}>
             <a
               className={aboutStyles.icon}
