@@ -17,14 +17,7 @@
 }
 .avatar {
 }
-a {
-  text-decoration: none;
-  color: rgba(85, 181, 182, 0.913);
-}
-a:hover {
-  color: white;
-  margin: 0;
-}
+
 /* fullscreen */
 @media only screen and (min-width: 845px) {
   .container {
@@ -45,21 +38,12 @@ a:hover {
   .avatar {
     margin-top: 2em;
     border-radius: 100%;
-
     width: 100%;
     margin: 100px;
   }
-  /* .links {
-    text-align: right;
-    padding-right: 4.1em;
-    margin-top: 0;
-    font-size: 1.5rem;
-    padding: 1em;
-    padding-right: 0;
-  } */
 }
-/* SMALL MOBILE */
-@media only screen and (max-width: 320px) {
+/* MOBILE */
+@media only screen and (max-width: 500px) {
   .container {
     justify-content: center;
     flex-wrap: wrap;

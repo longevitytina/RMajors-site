@@ -72,7 +72,7 @@
   }
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 500px) {
   .carouselItem {
     padding: 10px 30px 10px 30px;
     margin: 30px 30px 50px 30px;
@@ -83,14 +83,14 @@
   }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 500px) {
   .carouselItem {
     padding: 40px 30px 80px 30px;
     margin: 80px 30px 70px 30px;
   }
 }*/
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 500px) {
   .container {
     margin-top: 0;
   }

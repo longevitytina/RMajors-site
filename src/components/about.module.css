@@ -71,8 +71,8 @@
   }
 }
 
-/* SMALL MOBILE */
-@media only screen and (max-width: 320px) {
+/* MOBILE */
+@media only screen and (max-width: 500px) {
   .container {
     justify-content: center;
     flex-wrap: wrap;
