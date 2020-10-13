@@ -1,16 +1,16 @@
 .container {
+  display: flex;
+
   font-family: "Roboto", sans-serif;
+  color: rgba(255, 255, 255, 1);
 }
 
 .heading {
-  color: rgba(255, 255, 255, 1);
 }
 
 .description {
-  color: rgba(255, 255, 255, 1);
 }
 .avatar {
-  margin-top: 2em;
 }
 a {
   text-decoration: none;
@@ -20,12 +20,9 @@ a:hover {
   color: white;
   margin: 0;
 }
-.links {
-}
-
+/* fullscreen */
 @media only screen and (min-width: 845px) {
   .container {
-    display: flex;
     justify-content: flex-start;
     align-items: center;
   }
@@ -41,7 +38,9 @@ a:hover {
     font-size: 20px;
   }
   .avatar {
+    margin-top: 2em;
     border-radius: 100%;
+
     width: 100%;
     margin: 100px;
   }
@@ -53,6 +52,21 @@ a:hover {
     padding: 1em;
     padding-right: 0;
   } */
+}
+/* SMALL MOBILE */
+@media only screen and (max-width: 320px) {
+  .container {
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+  }
+  .avatar {
+  }
+  .writingWrap {
+    margin: 0px;
+    width: 100%;
+  }
 }
 
 /* @media only screen and (max-width: 845px) {
