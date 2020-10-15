@@ -6,6 +6,7 @@
 }
 
 .accordion {
+  color: rgba(255, 255, 255, 1);
 }
 .accordion:hover {
   color: rgba(22, 40, 79, 1);
