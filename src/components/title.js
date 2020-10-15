@@ -1,14 +1,17 @@
 import { graphql, Link, useStaticQuery } from "gatsby"
 import React from "react"
 import titleStyles from "./title.module.css"
-import Img from "gatsby-image"
+import Img from "gatsby-image/withIEPolyfill"
+// import BackgroundImage from "gatsby-background-image"
 
 const Title = props => {
   return (
     <div className={titleStyles.container}>
       <Img
         className={titleStyles.avatar}
-        fixed={props.titleImage}
+        objectFit="cover"
+        objectPosition="98% 5%"
+        fluid={props.titleImage}
         alt="Robert headshot"
       />
       <div className={titleStyles.writingWrap}>

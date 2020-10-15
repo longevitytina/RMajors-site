@@ -12,7 +12,7 @@ import "bootstrap/dist/css/bootstrap.min.css"
 const IndexPage = ({ data: { titleImage, aboutImage } }) => (
   <Layout>
     <SEO title="Home" />
-    <Title titleImage={titleImage.childImageSharp.fixed} />
+    <Title titleImage={titleImage.childImageSharp.fluid} />
     <Projects />
     <About aboutImage={aboutImage.childImageSharp.fluid} />
     <Testimonials />
@@ -25,8 +25,8 @@ export const homeQuery = graphql`
   {
     titleImage: file(relativePath: { eq: "title1.jpg" }) {
       childImageSharp {
-        fixed(width: 500, height: 500) {
-          ...GatsbyImageSharpFixed
+        fluid(maxWidth: 1600, maxHeight: 1600) {
+          ...GatsbyImageSharpFluid
         }
       }
     }
