@@ -20,7 +20,7 @@ export default function projects() {
           Click me!
         </Accordion.Toggle>
         <Accordion.Collapse eventKey="0">
-          <CardColumns className="pl-5 pr-5">
+          <CardColumns>
             {DEFAULT_PROJECTS.map((project, i) => (
               <ProjectPreview {...project} key={i} />
             ))}

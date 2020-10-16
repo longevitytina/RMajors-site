@@ -1,6 +1,7 @@
 .container {
   font-family: "Roboto", sans-serif;
   color: rgba(255, 255, 255, 1);
+  padding: 20px 10px 20px 10px;
 }
 .heading {
 }
@@ -46,8 +47,6 @@
 @media only screen and (max-width: 500px) {
   .container {
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
   }
   .heading {
     font-size: 20px;
