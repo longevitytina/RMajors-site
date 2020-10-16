@@ -6,10 +6,10 @@ import { DEFAULT_TESTIMONIALS } from "./testimonialData"
 
 export default function testimonials() {
   return (
-    <div style={{ backgroundColor: `rgb(63, 62, 62)` }}>
-      <h1 className={testimonialStyles.heading} id="testimonials">
-        Testimonials
-      </h1>
+    <div className={testimonialStyles.container}>
+      <div className={testimonialStyles.heading} id="testimonials">
+        "
+      </div>
 
       <Carousel className={testimonialStyles.container}>
         {DEFAULT_TESTIMONIALS.map(({ name, description }, index) => (

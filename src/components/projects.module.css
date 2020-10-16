@@ -1,27 +1,58 @@
 .container {
-  padding-bottom: 1em;
-  background-color: rgb(55, 52, 51);
+  font-family: "Roboto", sans-serif;
+  color: rgba(255, 255, 255, 1);
+  padding: 20px 10px 20px 10px;
 }
 .heading {
-  padding-top: 1em;
-  margin-bottom: 0;
-  padding-right: 1em;
-  padding-bottom: 0.3em;
-  color: rgba(85, 181, 182, 0.913);
-  font-size: 6rem;
-  font-family: "Oswald", sans-serif;
-  text-align: center;
 }
 
-@media only screen and (max-width: 845px) {
+.accordion {
+  color: rgba(255, 255, 255, 1);
+}
+.accordion:hover {
+  color: rgba(22, 40, 79, 1);
+  text-decoration: none;
+}
+/* FULL SCREEN */
+@media only screen and (min-width: 1000px) {
   .container {
-    display: block;
-    text-align: center;
-    margin: unset;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 50px;
   }
   .heading {
-    padding: unset;
+    font-size: 40px;
+    text-align: left;
+  }
+  .accordion {
+    font-size: 20px;
+    padding-bottom: 30px;
+  }
+}
+/* MEDIUM VIEW */
+@media only screen and (max-width: 1000px) {
+  .container {
     text-align: center;
-    font-size: 4rem;
+  }
+  .heading {
+    font-size: 25px;
+  }
+  .accordion {
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+}
+
+/* MOBILE */
+@media only screen and (max-width: 500px) {
+  .container {
+    text-align: center;
+  }
+  .heading {
+    font-size: 20px;
+  }
+  .accordion {
+    font-size: 15px;
+    padding-bottom: 10px;
   }
 }

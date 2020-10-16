@@ -13,8 +13,8 @@ const IndexPage = ({ data: { titleImage, aboutImage } }) => (
   <Layout>
     <SEO title="Home" />
     <Title titleImage={titleImage.childImageSharp.fluid} />
-    <About aboutImage={aboutImage.childImageSharp.fluid} />
     <Projects />
+    <About aboutImage={aboutImage.childImageSharp.fluid} />
     <Testimonials />
   </Layout>
 )
@@ -25,7 +25,7 @@ export const homeQuery = graphql`
   {
     titleImage: file(relativePath: { eq: "title1.jpg" }) {
       childImageSharp {
-        fluid(maxWidth: 1000) {
+        fluid(maxWidth: 1600, maxHeight: 1600) {
           ...GatsbyImageSharpFluid
         }
       }

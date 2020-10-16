@@ -1,13 +1,12 @@
 import React from "react"
 import PropTypes from "prop-types"
-
-import "./layout.css"
+import layoutStyles from "./layout.module.css"
 
 const Layout = ({ children }) => {
   return (
     <>
       <div>
-        <main style={{ backgroundColor: `rgb(55, 52, 51)` }}>{children}</main>
+        <main className={layoutStyles.body}>{children}</main>
         {/* <footer style={{}}>
           © {new Date().getFullYear()}
           {` `}

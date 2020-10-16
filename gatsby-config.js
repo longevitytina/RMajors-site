@@ -32,7 +32,7 @@ module.exports = {
       resolve: "gatsby-plugin-web-font-loader",
       options: {
         google: {
-          families: ["Oswald", "Cardo"],
+          families: ["Oswald", "Cardo", "Roboto"],
         },
       },
     },
