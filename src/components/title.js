@@ -9,8 +9,6 @@ const Title = props => {
     <div className={titleStyles.container}>
       <Img
         className={titleStyles.avatar}
-        objectFit="cover"
-        objectPosition="98% 5%"
         fluid={props.titleImage}
         alt="Robert headshot"
       />
