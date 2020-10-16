@@ -16,11 +16,8 @@ const Title = props => {
         <div>
           <h1 className={titleStyles.heading}>Events Planner and Consultant</h1>
           <p className={titleStyles.description}>
-            Something descriptive about your job offering. Lucas ipsum dolor sit
-            amet utapau wedge yoda hoth baba utapau kashyyyk skywalker yoda
-            chewbacca. Watto solo fett mon. Hutt watto hutt aayla. Mara bespin
-            solo kessel gamorrean anakin. Solo sebulba palpatine ewok vader
-            solo. Obi-wan amidala solo antilles darth. Vader binks fett ponda
+            Helping humans, one house at a time. Leading and organizing teams
+            dedicated to community.
           </p>
           {/* <div className={titleStyles.links}>
           <Link to="#about">About</Link>
