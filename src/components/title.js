@@ -14,10 +14,10 @@ const Title = props => {
       />
       <div className={titleStyles.writingWrap}>
         <div>
-          <h1 className={titleStyles.heading}>Events Planner and Consultant</h1>
+          <h1 className={titleStyles.heading}> Eco-Creative Design Engineer</h1>
           <p className={titleStyles.description}>
-            Helping humans, one house at a time. Leading and organizing teams
-            dedicated to community.
+            Engineering solutions to uplift the enjoyment of life. Leading
+            projects that build purpose in our communities.
           </p>
           {/* <div className={titleStyles.links}>
           <Link to="#about">About</Link>
