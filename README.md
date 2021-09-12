@@ -4,10 +4,7 @@
     <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
   </a>
 </p>
-<h1 align="center">
-  [Robert Majors portfolio](https://robert-majors.netlify.app/)
-</h1>
-
+[Robert Majors portfolio](https://robert-majors.netlify.app/ )
 
 ## 🧐 What's inside?
 
