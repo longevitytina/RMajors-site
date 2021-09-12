@@ -5,10 +5,9 @@
   </a>
 </p>
 <h1 align="center">
-  Robert Majors portfolio
+  [Robert Majors portfolio](https://robert-majors.netlify.app/)
 </h1>
 
-## 🚀 Gatsby simple start
 
 ## 🧐 What's inside?
 
